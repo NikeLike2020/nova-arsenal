@@ -1,0 +1,26 @@
+{
+  "type": "GenericCrafter",
+  "name": "Novacite Smelter",
+  "description": "Плавит свинец и титан в novacite.",
+  "research": "silicon-smelter",
+  "category": "crafting",
+  "size": 2,
+  "health": 260,
+  "craftTime": 80,
+  "outputItem": "novacite/1",
+  "requirements": [
+    "copper/60",
+    "lead/50",
+    "silicon/30",
+    "titanium/25"
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        "lead/2",
+        "titanium/1"
+      ]
+    },
+    "power": 0.6
+  }
+}

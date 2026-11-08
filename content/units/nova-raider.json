@@ -1,0 +1,35 @@
+{
+  "type": "flying",
+  "name": "Nova Raider",
+  "description": "Тяжёлый штурмовик с самонаводящимися ракетами.",
+  "health": 900,
+  "speed": 1.8,
+  "accel": 0.05,
+  "drag": 0.04,
+  "armor": 3,
+  "flying": true,
+  "hitSize": 16,
+  "engineOffset": 12,
+  "engineSize": 4,
+  "itemCapacity": 30,
+  "weapons": [
+    {
+      "reload": 40,
+      "x": 2.5,
+      "y": -0.5,
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 18,
+        "speed": 3,
+        "lifetime": 55,
+        "width": 7,
+        "height": 10,
+        "homingPower": 0.08,
+        "splashDamage": 22,
+        "splashDamageRadius": 24,
+        "backColor": "ff9a3c",
+        "frontColor": "ffffff"
+      }
+    }
+  ]
+}

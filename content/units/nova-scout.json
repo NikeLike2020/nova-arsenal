@@ -1,0 +1,32 @@
+{
+  "type": "flying",
+  "name": "Nova Scout",
+  "description": "Быстрый лёгкий дрон-разведчик.",
+  "health": 280,
+  "speed": 2.8,
+  "accel": 0.08,
+  "drag": 0.04,
+  "flying": true,
+  "hitSize": 9,
+  "engineOffset": 6,
+  "engineSize": 2.5,
+  "itemCapacity": 10,
+  "weapons": [
+    {
+      "reload": 18,
+      "mirror": false,
+      "x": 0,
+      "y": -1,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "speed": 4.5,
+        "lifetime": 32,
+        "width": 6,
+        "height": 8,
+        "backColor": "4ee8c8",
+        "frontColor": "ffffff"
+      }
+    }
+  ]
+}

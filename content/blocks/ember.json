@@ -1,0 +1,54 @@
+{
+  "type": "ItemTurret",
+  "category": "turret",
+  "name": "Ember",
+  "description": "Быстрая турель. Стреляет медью, графитом или кремнием (самонаведение).",
+  "research": "duo",
+  "size": 2,
+  "health": 520,
+  "reload": 12,
+  "range": 165,
+  "inaccuracy": 5,
+  "rotateSpeed": 9,
+  "recoil": 2,
+  "targetAir": true,
+  "requirements": [
+    "copper/70",
+    "graphite/50"
+  ],
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+      "damage": 14,
+      "speed": 3.2,
+      "lifetime": 56,
+      "width": 7,
+      "height": 9,
+      "backColor": "ffb25e",
+      "frontColor": "ffffff"
+    },
+    "graphite": {
+      "type": "BasicBulletType",
+      "damage": 24,
+      "speed": 3.6,
+      "lifetime": 56,
+      "width": 8,
+      "height": 11,
+      "backColor": "ff9a3c",
+      "frontColor": "ffffff",
+      "reloadMultiplier": 0.8
+    },
+    "silicon": {
+      "type": "BasicBulletType",
+      "damage": 17,
+      "speed": 3.4,
+      "lifetime": 60,
+      "width": 7,
+      "height": 9,
+      "homingPower": 0.08,
+      "backColor": "b9c7ff",
+      "frontColor": "ffffff",
+      "reloadMultiplier": 1.2
+    }
+  }
+}

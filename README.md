@@ -19,26 +19,24 @@
 **Блоки**
 | Блок | Что делает |
 |---|---|
-| **Novacite Smelter** (2×2) | Из 2 свинца и 1 титана делает 1 novacite, потребляет энергию |
-| **Ember** (2×2, турель) | Быстрая турель. Патроны: медь, графит (сильнее, но медленнее), кремний (самонаведение) |
-| **Nova Railgun** (3×3, турель) | Энергетическая турель, пробивающий лазерный луч: урон 260, дальность 300. Патроны не нужны, нужна энергия |
-| **Novacite Wall** | Прочная стена из novacite |
-| **Nova Factory** (3×3) | Фабрика юнитов, потребляет энергию |
+| **Novacite Smelter** (2×2) | Из 2 свинца и 1 титана делает 1 novacite (80 тиков), потребляет энергию 0,6/тик |
+| **Ember** (2×2, турель) | Быстрая турель. Патроны: медь, графит (сильнее, но медленнее), кремний (самонаведение). Стоимость: 70 меди, 50 графита |
+| **Nova Railgun** (3×3, турель) | Энергетическая турель, пробивающий лазерный луч: урон 260, дальность 300. Патроны не нужны, потребляет энергию 6/тик. Стоимость: 120 меди, 90 графита, 80 кремния, 60 титана, 40 novacite |
+| **Novacite Wall** | Прочная стена (760 здоровья), стоимость 6 novacite |
+| **Nova Factory** (3×3) | Фабрика юнитов, потребляет энергию 1,2/тик |
 
 **Юниты** (производятся в Nova Factory)
-| Юнит | Описание |
-|---|---|
-| **Nova Scout** | Быстрый лёгкий воздушный дрон, стреляет из турели под корпусом |
-| **Nova Raider** | Воздушный штурмовик с бронёй и самонаводящимися ракетами. Для постройки нужен novacite |
+| Юнит | Описание | Стоимость |
+|---|---|---|
+| **Nova Scout** | Быстрый лёгкий воздушный дрон, 280 здоровья, стреляет из турели под корпусом | 20 кремния, 15 свинца (12 с) |
+| **Nova Raider** | Воздушный штурмовик, 900 здоровья, броня 3, самонаводящиеся ракеты | 60 кремния, 30 титана, 8 novacite (35 с) |
 
 Все блоки добавлены в дерево исследований рядом с ванильными (Duo, Lancer, Air Factory, Silicon Smelter, Titanium Wall).
 
 ### Установка
-1. В Mindustry открой **Настройки → Моды → Импорт мода → Import from GitHub**.
-2. Введи `NikeLike2020/nova-arsenal`.
+1. Скачай `.zip` из раздела **Releases** (или собери из репозитория).
+2. В Mindustry: **Настройки → Моды → Импорт мода** и выбери файл.
 3. Перезапусти игру.
-
-Или скачай `.zip` из репозитория и выбери **Импорт мода** из файла.
 
 ### Известные ограничения
 - Мод сделан ИИ и **может содержать баги**. Если нашёл ошибку, создай **Issue** в этом репозитории с описанием.
@@ -60,26 +58,24 @@ A small mod that adds a new resource, two turrets, two flying units, a unit fact
 **Blocks**
 | Block | Description |
 |---|---|
-| **Novacite Smelter** (2×2) | Turns 2 lead + 1 titanium into 1 novacite, uses power |
-| **Ember** (2×2 turret) | Fast turret. Ammo: copper, graphite (stronger, slower), silicon (homing) |
-| **Nova Railgun** (3×3 turret) | Power-based turret firing a piercing laser beam: 260 damage, 300 range. No ammo needed, just power |
-| **Novacite Wall** | Sturdy wall made of novacite |
-| **Nova Factory** (3×3) | Unit factory, uses power |
+| **Novacite Smelter** (2×2) | Turns 2 lead + 1 titanium into 1 novacite (80 ticks), uses 0.6 power/tick |
+| **Ember** (2×2 turret) | Fast turret. Ammo: copper, graphite (stronger, slower), silicon (homing). Cost: 70 copper, 50 graphite |
+| **Nova Railgun** (3×3 turret) | Power-based turret firing a piercing laser beam: 260 damage, 300 range. No ammo needed, uses 6 power/tick. Cost: 120 copper, 90 graphite, 80 silicon, 60 titanium, 40 novacite |
+| **Novacite Wall** | Sturdy wall (760 health), costs 6 novacite |
+| **Nova Factory** (3×3) | Unit factory, uses 1.2 power/tick |
 
 **Units** (built in the Nova Factory)
-| Unit | Description |
-|---|---|
-| **Nova Scout** | Fast light air drone, fires from a turret under its hull |
-| **Nova Raider** | Armored air assault unit with homing missiles. Requires novacite to build |
+| Unit | Description | Cost |
+|---|---|---|
+| **Nova Scout** | Fast light air drone, 280 health, fires from a turret under its hull | 20 silicon, 15 lead (12 s) |
+| **Nova Raider** | Air assault unit, 900 health, armor 3, homing missiles | 60 silicon, 30 titanium, 8 novacite (35 s) |
 
 Everything is placed in the tech tree next to vanilla blocks (Duo, Lancer, Air Factory, Silicon Smelter, Titanium Wall).
 
 ### Installation
-1. In Mindustry open **Settings → Mods → Import Mod → Import from GitHub**.
-2. Enter `NikeLike2020/nova-arsenal`.
+1. Download the `.zip` from **Releases** (or zip the repository contents yourself).
+2. In Mindustry: **Settings → Mods → Import Mod** and pick the file.
 3. Restart the game.
-
-Or download the `.zip` from the repository and use **Import Mod** from a file.
 
 ### Known limitations
 - **This mod was made with AI assistance and may contain bugs.** If you find one, please open an **Issue**.

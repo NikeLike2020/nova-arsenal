@@ -1,0 +1,46 @@
+{
+  "type": "PowerTurret",
+  "category": "turret",
+  "name": "Nova Railgun",
+  "description": "Дальнобойный рельсотрон на энергии. Заряд пробивает всех врагов на линии.",
+  "research": "lancer",
+  "size": 3,
+  "health": 1700,
+  "reload": 110,
+  "range": 300,
+  "rotateSpeed": 4,
+  "recoil": 4,
+  "targetAir": true,
+  "requirements": [
+    "copper/120",
+    "graphite/90",
+    "silicon/80",
+    "titanium/60",
+    "novacite/40"
+  ],
+  "shoot": {
+    "firstShotDelay": 40
+  },
+  "moveWhileCharging": false,
+  "accurateDelay": false,
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 260,
+    "length": 300,
+    "width": 28,
+    "colors": [
+      "4ee8c855",
+      "4ee8c8",
+      "ffffff"
+    ],
+    "hitColor": "4ee8c8",
+    "chargeEffect": "lancerLaserCharge",
+    "shootEffect": "lancerLaserShoot",
+    "smokeEffect": "lancerLaserShootSmoke",
+    "hitEffect": "hitLancer",
+    "despawnEffect": "none"
+  },
+  "consumes": {
+    "power": 6
+  }
+}

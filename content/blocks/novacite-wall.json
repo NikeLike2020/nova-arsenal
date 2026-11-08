@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "category": "defense",
+  "name": "Novacite Wall",
+  "description": "Прочная стена из novacite.",
+  "research": "titanium-wall",
+  "health": 760,
+  "requirements": [
+    "novacite/6"
+  ]
+}

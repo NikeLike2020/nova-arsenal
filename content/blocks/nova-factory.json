@@ -1,0 +1,37 @@
+{
+  "type": "UnitFactory",
+  "category": "units",
+  "name": "Nova Factory",
+  "description": "Производит юнитов Nova Scout и Nova Raider.",
+  "research": "air-factory",
+  "size": 3,
+  "health": 900,
+  "requirements": [
+    "copper/80",
+    "lead/100",
+    "silicon/80",
+    "titanium/50"
+  ],
+  "plans": [
+    {
+      "unit": "nova-scout",
+      "time": 720,
+      "requirements": [
+        "silicon/20",
+        "lead/15"
+      ]
+    },
+    {
+      "unit": "nova-raider",
+      "time": 2100,
+      "requirements": [
+        "silicon/60",
+        "titanium/30",
+        "novacite/8"
+      ]
+    }
+  ],
+  "consumes": {
+    "power": 1.2
+  }
+}
